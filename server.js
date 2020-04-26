@@ -20,7 +20,7 @@ const options = {
 const connectDB = async () => {
   try {
     await mongoose.connect(
-      `mongodb+srv://AMace:AndruMace98@techbox-ntoi8.mongodb.net/test?retryWrites=true&w=majority`,
+      `mongodb+srv://AMace:peocess.env.PASSWORD@techbox-ntoi8.mongodb.net/test?retryWrites=true&w=majority`,
       options
     );
     console.log("DB CONNECTED");
